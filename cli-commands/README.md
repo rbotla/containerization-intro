@@ -2,17 +2,17 @@
 
 > Build image
 ```
-docker build -t <your username>/node-web-app .
+docker build -t node-web-app .
 ```
 
-> Check image creation was successful
+> Check if image creation was successful
 ```
 docker images
 ```
 
 > Run the image
 ```
-docker run -p 3000:8080 -d <your username>/node-web-app
+docker run -p 3000:8080 -d node-web-app
 ```
 
 > Check if the container is running
@@ -29,4 +29,3 @@ docker exec -it <container id> /bin/bash
 ```
 curl -i localhost:3000
 ```
-

@@ -10,7 +10,7 @@ In this section we will go through the following steps
 > Install Docker 
 ```shell
 sudo yum update -y
-sudo yum install docker
+sudo yum install docker -y
 sudo systemctl start docker
 sudo usermod -a -G docker ec2-user
 # re-start machine
