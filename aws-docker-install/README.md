@@ -2,9 +2,10 @@
 
 In this section we will go through the following steps
 1. Create a free Tier AWS account
-2. Create key pair
+2. Create a key pair
 3. Create an EC2 instance
-4. Install docker
+4. SSH into the EC2 instance
+5. Install docker
 
 > Install Docker 
 ```shell

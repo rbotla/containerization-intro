@@ -1,4 +1,4 @@
-# Instriuctions
+# Docker CLI Commands
 
 > Build image
 ```
